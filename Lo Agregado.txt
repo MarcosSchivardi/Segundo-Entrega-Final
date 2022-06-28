@@ -1,0 +1,1 @@
+Agregue el el GitIgnore para ignorar el node_module, tambien estuve mejorando el seo, gracias a la clase de seo y agregue nuevos titulos organize los index en una carptera llamada paginas y tuve que reedireccionar todas las fotos, le puse palabras claves y una descripcion cuando entras a la pagina.
