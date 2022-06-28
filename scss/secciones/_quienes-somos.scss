@@ -1,0 +1,61 @@
+/* Quienes Somos **********************************************************************************************************************************************************/
+.mainQuieneSomos {
+    height: 80vh;
+    background-image: url(/Fotos/fondo1.jpg);
+    background-attachment: fixed;
+
+}
+
+.seccionAcerca {
+    width: 800px;
+    height: 470px;
+    margin: auto;
+    position: relative;
+    top: 65px;
+    background-color: white;
+    padding: 0 40px 0 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow: auto;
+    animation: zoomIn;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+    /* don't forget to set a duration! */
+}
+
+.seccionAcerca h1 {
+    font-family: "Dancing Script";
+    font-weight: 400;
+    font-size: 50px;
+    position: relative;
+    color: #6a6a6a;
+
+}
+
+.seccionAcerca h3 {
+
+    font-family: "Dancing Script";
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+    font-weight: 100;
+    position: relative;
+    color: #ace2fe;
+}
+
+.acerca {
+    position: relative;
+    top: 45px;
+    display: flex;
+
+}
+
+.acerca p {
+    font-family: sans-serif;
+    color: rgba(128, 128, 128, 0.815);
+}
+
+.p2 {
+    padding-left: 20px;
+
+}

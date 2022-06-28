@@ -1,0 +1,71 @@
+/* Footer **********************************************************************************************************************************************************************************************/
+
+
+.footer {
+    grid-area: footer;
+    background-color: #ace2fe;
+    color: white;
+    width: 100%;    
+}
+
+
+.containerFooterG{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.column1G{
+    margin-top: 20px;
+
+}
+
+.column2G{
+    margin-top: 20px;
+
+}
+
+.column3G{
+    margin-top: 20px;
+
+}
+
+.containerFooterG a{
+    text-decoration:none ;
+    color: white;
+}
+
+.rowG {
+    margin-top: 10px;
+}
+
+.rowG i{
+    width: 10px;
+    height: 10px;
+}
+
+.row2G{
+    margin-top: 10px;
+}
+
+.rowG label{
+    position: relative;
+    left: 15px;
+}
+
+.row2G label{
+    position: relative;
+    left: 15px;
+}
+
+.rowG a{
+    transition: all;
+}
+
+.rowG a :hover{
+    transform: scale(1.5);
+}
+
+.p-noneG{
+    padding-left: 0px;
+}

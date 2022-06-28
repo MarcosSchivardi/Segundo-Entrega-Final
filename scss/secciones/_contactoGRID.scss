@@ -1,0 +1,254 @@
+/* ContainerGrid/Contacto ************************************************************************************************************************************************/
+
+.containerBody {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header"
+        "aside section section "
+        "aside section section "
+        "footer footer footer";
+        background-image: url(/Fotos/fondo1.jpg);
+    flex-wrap: wrap;
+
+}
+
+
+/* Header */
+
+.header {
+    grid-area: header;
+}
+
+.nav-responsive {
+    visibility: hidden;
+    display: none;
+}
+
+.containerSubmenuG {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navLinkG img {
+    height: 200px;
+    margin-top: 5px;
+}
+
+.menuG {
+    display: flex;
+    background-color: #ace2fe;
+    margin: auto;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.menuG li {
+    display: block;
+    text-align: center;
+}
+
+.menuG li a {
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #62cbff;
+    padding: 15px 20px;
+    display: block;
+    margin: 12px 0 10px 10px;
+    font-size: 12px;
+}
+
+.menuG>li {
+    float: left;
+}
+
+.menuG li a:hover {
+    background-color: rgba(94, 94, 94, 0.527);
+}
+
+.menuG li ul {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+}
+
+.menuG li:hover>ul {
+    display: block;
+}
+
+/* Contacto**********************************************************/
+
+
+.section {
+    grid-area: section;
+}
+
+.tel label {
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-left: 5px;
+}
+
+.redes i {
+    font-size: 20px;
+    transition: all;
+    margin-left: 15px;
+    animation: zoomIn;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+.redes i:hover {
+    transform: scale(1.5);
+
+}
+
+.formContact {
+    background-color: white;
+    width: 86%;
+    height: 530px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 120px rgb(255, 255, 255);
+    animation: bounceIn;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+    /* don't forget to set a duration! */
+
+
+}
+
+.formContact h2 {
+    color: rgb(68, 63, 63);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.formContact input {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.85em;
+
+
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+    border: none;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.checkbox {
+    position: relative;
+    left: 10px;
+    bottom: 22px;
+}
+
+.formContact input[type=submit]:hover,
+.formContact input[type=email]:hover,
+.formContact input[type=text]:hover,
+.formContact input[type=tel]:hover,
+.formContact input[type=reset]:hover {
+    background-color: #ace3fe80;
+    color: white;
+}
+
+.inicioContactoContainer {
+    display: grid;
+    background-color: #ffffff;
+    height: 530px;
+    width: 86%;
+    padding: 20px 40px 0 40px;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px auto;
+    animation: bounceIn;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+    /* don't forget to set a duration! */
+
+}
+
+aside {
+    grid-area: aside;
+}
+
+.linea {
+    height: 2px;
+    background-color: #afb2b48e;
+}
+
+.inicioContacto p,
+.inicioContacto a,
+.inicioContacto h1,
+.emailContacto a,
+h3 {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+}
+
+.inicioContacto h1 {
+    font-weight: 50;
+
+    font-size: 50px;
+}
+
+.inicioContacto p {
+    color: #ace2fe;
+}
+
+.inicioContacto p,
+.inicioContacto a {
+    font-size: 15px;
+
+}
+
+.emailContacto {
+    padding-top: 20px;
+
+
+}
+
+.redes a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.redes {
+    padding-bottom: 50px;
+}
+
+.redes h3 {
+    padding-bottom: 15px;
+}
+
+
+.emailContacto a {
+    font-size: 0.70em;
+    font-weight: bold;
+    font-family: sans-serif;
+
+
+}

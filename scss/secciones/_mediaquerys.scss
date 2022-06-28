@@ -1,0 +1,459 @@
+/* largo de Producotos */
+
+@media (max-width: 1060px) {
+
+    .mainProductos {
+        height: 260vh;
+    }
+}
+
+/* ComoComprar */
+@media (max-width: 1000px) {
+    .mainCompra {
+        height: 110vh;
+    }
+
+    .containerCompra {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .containerCompra h1 {
+        font-size: 35px;
+    }
+
+    .containerCompra h3 {
+        font-size: 15px;
+    }
+
+    .compra p {
+        padding: 5px 0 5px 10px;
+        font-size: 10px;
+    }
+}
+
+
+/* Media/Tablets */
+@media (max-width: 768px) {
+
+    /* menu responsive */
+    .deskop-r {
+        visibility: hidden;
+        display: none;
+    }
+
+    .nav-responsive {
+        visibility: visible;
+        display: contents;
+    }
+
+    /* index */
+
+    .main {
+        min-height: 900px;
+        max-height: 10000px;
+    }
+
+    .section1 img {
+        max-height: 350px;
+        width: auto;
+        border-radius: 30px;
+        padding: 10px;
+
+    }
+
+    .section2 img {
+        max-height: 350px;
+        width: auto;
+        border-radius: 30px;
+        padding: 10px;
+    }
+
+    .section3 img {
+        max-height: 350px;
+        width: auto;
+        border-radius: 30px;
+        padding: 10px;
+    }
+
+    .box {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+
+    }
+
+
+
+
+    /* Contacto */
+
+    .containerBody {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "header "
+            "aside "
+            "section "
+            "footer ";
+        background-image: url(..//Fotos/fondo.jpg);
+    }
+
+    .formContact {
+        width: 75%;
+    }
+
+    textarea {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+
+    .inicioContactoContainer {
+        width: 75%;
+    }
+
+
+    /* quienes somos *************************************/
+    .mainQuieneSomos {
+        height: 100vh;
+
+
+    }
+
+    .seccionAcerca {
+        width: 90%;
+        height: 550px;
+    }
+
+    .acerca {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .p2 {
+        padding: 10px 0 0 0;
+
+    }
+
+    /* maincomprar ****************************************************/
+}
+
+
+/* Largo Productos-main */
+
+@media (max-width: 703px) {
+    .mainProductos {
+        height: 500vh;
+    }
+
+}
+
+
+/* Footer */
+
+@media (max-width: 670px) {
+    .containerFooter {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 10px 10px;
+    }
+}
+
+
+/* Contacto/ Compra */
+@media (max-width: 632px) {
+
+    .menuG li a {
+        width: 80px;
+        padding: 10px 10px 10px 7px;
+        margin-left: 10px;
+        height: 38px;
+        font-size: 10px;
+        left: 2px;
+    }
+
+    .mainCompra {
+        height: 150vh;
+    }
+}
+
+/* h1 productos */
+
+@media (max-width: 554px) {
+    .mainProductos{
+        
+        h1{
+            font-size: 20px;
+        }
+    }
+}
+
+
+/* largo del index-main */
+
+@media (max-width: 538px) {
+    .main {
+        height: 1200px;
+    }
+}
+
+
+
+
+/* Inicio Y Formulario */
+
+@media (max-width: 455px) {
+    .titulo h1 {
+        font-size: 150%;
+    }
+
+    .inicioContactoContainer {
+        width: auto;
+        margin: 0 20px 0 20px;
+    }
+
+    .formContact {
+        width: auto;
+        margin: 0 20px 0 20px;
+
+    }
+
+
+
+}
+
+
+
+
+/* Media/Celular ****************************************************/
+@media screen and (max-width: 375px) {
+
+    /* submenu******************************************************************* */
+
+    .containerSubmenu {
+        height: 200px;
+        flex-wrap: wrap;
+    }
+
+    .logoImg {
+        height: 170px;
+
+    }
+
+    /* menucelular ****************************************************/
+
+    .menu {
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .menu li a {
+        width: 65px;
+        padding: 10px;
+        margin-left: 2px;
+        height: 30px;
+        font-size: 7px;
+        left: 2px;
+    }
+
+
+
+    /* mainIndex ****************************************************/
+
+    .main {
+        height: 200vh;
+    }
+
+    .titulo {
+        top: 5px;
+        font-size: 90%;
+    }
+
+    .box {
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .section1 img {
+        height: 400px;
+
+    }
+
+    .section2 img {
+        height: 400px;
+    }
+
+    .section3 img {
+        height: 400px;
+    }
+
+
+
+    /* productos ***************************************************/
+
+
+    .title {
+        font-size: 30px;
+    }
+
+    .mainProductos{
+        
+        h1{
+            font-size: 19px;
+        }
+    }
+
+
+    /* Contacto ***************************************************/
+
+    .containerBody {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "header"
+            "aside"
+            "section"
+            "footer";
+        background-image: url(..//Fotos/fondo.jpg);
+        flex-wrap: wrap;
+    }
+
+    .menuG li a {
+        width: 65px;
+        padding: 10px;
+        margin-left: 2px;
+        height: 30px;
+        font-size: 7px;
+        left: 2px;
+    }
+
+    textarea {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+
+    .inicioContactoContainer {
+        background-color: #ffffff;
+        height: 475px;
+        width: 90%;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 20px 0 20px 25px;
+    }
+
+    .formContact {
+        background-color: white;
+        width: 90%;
+        margin: 20px 0 20px 25px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 120px rgba(255, 255, 255, 0);
+        justify-content: center;
+    }
+
+
+    .section {
+        background-image: url(./fondo.jpg);
+        height: 100%;
+
+    }
+
+    .footer {
+        grid-area: footer;
+        background-color: #ace2fe;
+        color: white;
+        display: flex;
+    }
+
+    /* quienes somos *************************************/
+    .mainQuieneSomos {
+        height: 180vh;
+
+    }
+
+    .seccionAcerca {
+        width: 90%;
+        height: 1110px;
+
+    }
+
+    .acerca {
+        flex-direction: column;
+    }
+
+    .p2 {
+        padding: 10px 0 0 0;
+    }
+
+    /* maincomprar ****************************************************/
+
+    .mainCompra {
+        height: 155vh;
+    }
+
+    .containerCompra {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .containerCompra h1 {
+        font-size: 35px;
+    }
+
+    .containerCompra h3 {
+        font-size: 15px;
+    }
+
+    .compra p {
+        padding: 10px 0 10px 10px;
+        font-size: 10px;
+    }
+
+
+    /* footer celular ****************************************************/
+
+    .containerFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerFooterG {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 10px 10px;
+    }
+
+
+    .column1 {
+        margin: 20px 0 0 10px;
+        font-size: 13px;
+
+    }
+
+    .column2 {
+        margin: 25px 0 0 10px;
+        font-size: 13px;
+    }
+
+    .column3 {
+        margin: 25px 0 32px 10px;
+        font-size: 13px;
+    }
+
+    .containerLink {
+        padding-top: 5px;
+    }
+
+
+}

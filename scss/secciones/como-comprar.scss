@@ -1,0 +1,63 @@
+/* main Como Comprar *********************************************************************************************************************************************/
+.mainCompra {
+    height: 115vh;
+    background-image: url(/Fotos/fondo1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    
+
+}
+
+
+.containerCompra {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 0 40px 0 40px;
+    border-radius: 10px;
+    border: solid 3px #d0d7d8af;
+    animation: zoomIn;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+    /* don't forget to set a duration! */
+
+}
+
+.tituloCompra {
+    padding: 10px 0 0px 0;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 40px;
+
+}
+
+.tituloCompra h1 {
+    font-size: 30px;
+    color: #6e838d;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 3px;
+    border-bottom: solid 5px rgb(175, 202, 209);
+}
+
+.containerCompra h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 50px 0 20px 10px;
+    color: #353131;
+
+}
+
+.compra p {
+    padding: 5px 0 0px 20px;
+    color: #6a6a6aef;
+    font-family: sans-serif;
+}
