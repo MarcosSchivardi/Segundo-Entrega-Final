@@ -1,7 +1,6 @@
 /* main Productos *********************************************************************************************************************************************/
 .mainProductos {
     background-image: url(/Fotos/fondo1.jpg);
-    height: 180vh;
     width: 100%;
     font-family: sans-serif;
     letter-spacing: 0.03em;
@@ -35,7 +34,8 @@
 .container {
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+    max-height: 1000vh;
+    padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

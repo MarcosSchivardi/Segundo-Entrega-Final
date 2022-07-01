@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Paytone+One&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Dancing+Script&family=Paytone+One&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Dancing+Script&family=Paytone+One&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto+Slab:wght@500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +13,7 @@
 .containerSubmenu {
   width: 100%;
   height: 240px;
-  background-image: url(/Fotos/fondo1.jpg);
+  background-image: url(../Fotos/fondo1.jpg);
   background-size: cover;
   background-position: center;
   flex-wrap: wrap; }
@@ -68,11 +72,13 @@
 
 /* Main index *********************************************************************************************************************************************/
 .main {
-  background-image: url(/Fotos/fondo1.jpg);
+  background-image: url(../Fotos/fondo1.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 100vh; }
+  max-height: 1000vh;
+  padding-bottom: 100px;
+  height: 100%; }
 
 .titulo {
   display: flex;
@@ -130,8 +136,7 @@
 
 /* main Productos *********************************************************************************************************************************************/
 .mainProductos {
-  background-image: url(/Fotos/fondo1.jpg);
-  height: 180vh;
+  background-image: url(../Fotos/fondo1.jpg);
   width: 100%;
   font-family: sans-serif;
   letter-spacing: 0.03em;
@@ -160,7 +165,8 @@
 .container {
   width: 100%;
   max-width: 1200px;
-  height: 430px;
+  max-height: 1000vh;
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -216,8 +222,11 @@
   grid-template-rows: repeat(4, auto);
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header" "aside section section " "aside section section " "footer footer footer";
-  background-image: url(/Fotos/fondo1.jpg);
+  grid-template-areas: "header header header"
+ "aside section section "
+ "aside section section "
+ "footer footer footer";
+ background-image: url(../Fotos/fondo1.jpg);
   flex-wrap: wrap; }
 
 /* Header */
@@ -407,21 +416,19 @@ h3 {
 
 /* Quienes Somos **********************************************************************************************************************************************************/
 .mainQuieneSomos {
-  height: 80vh;
-  background-image: url(/Fotos/fondo1.jpg);
-  background-attachment: fixed; }
+  background-image: url(../Fotos/fondo1.jpg);
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
 .seccionAcerca {
-  width: 800px;
-  height: 470px;
+  max-height: 1000vh;
+  width: 58rem;
+  max-width: 1000vh;
   margin: auto;
-  position: relative;
-  top: 65px;
   background-color: white;
   padding: 0 40px 0 40px;
   border-radius: 10px;
-  overflow: hidden;
-  overflow: auto;
   animation: zoomIn;
   /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s;
@@ -437,15 +444,13 @@ h3 {
 .seccionAcerca h3 {
   font-family: "Dancing Script";
   position: relative;
-  top: 30px;
   font-size: 30px;
   font-weight: 100;
   position: relative;
-  color: #ace2fe; }
+  color: #ace2fe;
+  max-height: 1000vh; }
 
 .acerca {
-  position: relative;
-  top: 45px;
   display: flex; }
 
 .acerca p {
@@ -457,17 +462,17 @@ h3 {
 
 /* main Como Comprar *********************************************************************************************************************************************/
 .mainCompra {
-  height: 115vh;
-  background-image: url(/Fotos/fondo1.jpg);
+  height: 100%;
+  background-image: url(../Fotos/fondo1.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   padding-top: 20px;
-  padding-bottom: 60px; }
+  padding-bottom: 20px; }
 
 .containerCompra {
   width: 1000px;
-  height: 100%;
+  max-height: 1000vh;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.719);
   padding: 0 40px 0 40px;
@@ -577,15 +582,8 @@ h3 {
   padding: 10px 0;
   margin: 10px 0; }
 
-/* largo de Producotos */
-@media (max-width: 1060px) {
-  .mainProductos {
-    height: 260vh; } }
-
 /* ComoComprar */
 @media (max-width: 1000px) {
-  .mainCompra {
-    height: 110vh; }
   .containerCompra {
     width: 90%;
     flex-wrap: wrap; }
@@ -596,6 +594,11 @@ h3 {
   .compra p {
     padding: 5px 0 5px 10px;
     font-size: 10px; } }
+
+/* Quienes Somos */
+@media screen and (max-width: 930px) {
+  .seccionAcerca {
+    width: auto; } }
 
 /* Media/Tablets */
 @media (max-width: 768px) {
@@ -638,8 +641,11 @@ h3 {
     grid-template-rows: repeat(4, auto);
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "header " "aside " "section " "footer ";
-    background-image: url(..//Fotos/fondo.jpg); }
+    grid-template-areas: "header "
+ "aside "
+ "section "
+ "footer ";
+ background-image: url(../Fotos/fondo1.jpg);
   .formContact {
     width: 75%; }
   textarea {
@@ -647,23 +653,7 @@ h3 {
     min-width: 100%; }
   .inicioContactoContainer {
     width: 75%; }
-  /* quienes somos *************************************/
-  .mainQuieneSomos {
-    height: 100vh; }
-  .seccionAcerca {
-    width: 90%;
-    height: 550px; }
-  .acerca {
-    flex-direction: column;
-    flex-wrap: wrap; }
-  .p2 {
-    padding: 10px 0 0 0; }
   /* maincomprar ****************************************************/ }
-
-/* Largo Productos-main */
-@media (max-width: 703px) {
-  .mainProductos {
-    height: 500vh; } }
 
 /* Footer */
 @media (max-width: 670px) {
@@ -680,9 +670,7 @@ h3 {
     margin-left: 10px;
     height: 38px;
     font-size: 10px;
-    left: 2px; }
-  .mainCompra {
-    height: 150vh; } }
+    left: 2px; } }
 
 /* h1 productos */
 @media (max-width: 554px) {
@@ -751,7 +739,10 @@ h3 {
     grid-template-rows: repeat(4, auto);
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "header" "aside" "section" "footer";
+    grid-template-areas: "header"
+ "aside"
+ "section"
+ "footer";
     background-image: url(..//Fotos/fondo.jpg);
     flex-wrap: wrap; }
   .menuG li a {
@@ -787,19 +778,7 @@ h3 {
     background-color: #ace2fe;
     color: white;
     display: flex; }
-  /* quienes somos *************************************/
-  .mainQuieneSomos {
-    height: 180vh; }
-  .seccionAcerca {
-    width: 90%;
-    height: 1110px; }
-  .acerca {
-    flex-direction: column; }
-  .p2 {
-    padding: 10px 0 0 0; }
   /* maincomprar ****************************************************/
-  .mainCompra {
-    height: 155vh; }
   .containerCompra {
     width: 90%;
     flex-wrap: wrap; }

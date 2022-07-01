@@ -1,17 +1,7 @@
-/* largo de Producotos */
 
-@media (max-width: 1060px) {
-
-    .mainProductos {
-        height: 260vh;
-    }
-}
 
 /* ComoComprar */
 @media (max-width: 1000px) {
-    .mainCompra {
-        height: 110vh;
-    }
 
     .containerCompra {
         width: 90%;
@@ -30,6 +20,15 @@
         padding: 5px 0 5px 10px;
         font-size: 10px;
     }
+}
+
+/* Quienes Somos */
+
+@media screen and (max-width: 930px) {
+    .seccionAcerca {
+        width:auto;
+}
+
 }
 
 
@@ -120,39 +119,7 @@
     }
 
 
-    /* quienes somos *************************************/
-    .mainQuieneSomos {
-        height: 100vh;
-
-
-    }
-
-    .seccionAcerca {
-        width: 90%;
-        height: 550px;
-    }
-
-    .acerca {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .p2 {
-        padding: 10px 0 0 0;
-
-    }
-
     /* maincomprar ****************************************************/
-}
-
-
-/* Largo Productos-main */
-
-@media (max-width: 703px) {
-    .mainProductos {
-        height: 500vh;
-    }
-
 }
 
 
@@ -179,9 +146,6 @@
         left: 2px;
     }
 
-    .mainCompra {
-        height: 150vh;
-    }
 }
 
 /* h1 productos */
@@ -376,31 +340,8 @@
         display: flex;
     }
 
-    /* quienes somos *************************************/
-    .mainQuieneSomos {
-        height: 180vh;
-
-    }
-
-    .seccionAcerca {
-        width: 90%;
-        height: 1110px;
-
-    }
-
-    .acerca {
-        flex-direction: column;
-    }
-
-    .p2 {
-        padding: 10px 0 0 0;
-    }
 
     /* maincomprar ****************************************************/
-
-    .mainCompra {
-        height: 155vh;
-    }
 
     .containerCompra {
         width: 90%;
